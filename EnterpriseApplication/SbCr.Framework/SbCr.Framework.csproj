@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SbCr.Abstraction\SbCr.Abstraction.csproj" />
+    <ProjectReference Include="..\SbCr.Domain\SbCr.Domain.csproj" />
+    <ProjectReference Include="..\SbCr.ServiceProvider\SbCr.ServiceProvider.csproj" />
+    <ProjectReference Include="..\SbCr.Utils\SbCr.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
