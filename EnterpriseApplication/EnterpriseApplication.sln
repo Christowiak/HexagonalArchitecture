@@ -7,19 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{DCBA0B7D-4C66-4E49-866F-59003B036F4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbCr.Domain", "SbCr.Domain\SbCr.Domain.csproj", "{BE9070C0-6990-45B9-81BE-A493FB23AB82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SbCr.Domain", "SbCr.Domain\SbCr.Domain.csproj", "{BE9070C0-6990-45B9-81BE-A493FB23AB82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbCr.Framework", "SbCr.Framework\SbCr.Framework.csproj", "{6119F24A-5835-4F21-A124-90B6DC1B89A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SbCr.Framework", "SbCr.Framework\SbCr.Framework.csproj", "{6119F24A-5835-4F21-A124-90B6DC1B89A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbCr.ServiceProvider", "SbCr.ServiceProvider\SbCr.ServiceProvider.csproj", "{BFDBCF1A-4607-49B6-9DD0-6435C47AA387}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SbCr.ServiceProvider", "SbCr.ServiceProvider\SbCr.ServiceProvider.csproj", "{BFDBCF1A-4607-49B6-9DD0-6435C47AA387}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbCr.Abstraction", "SbCr.Abstraction\SbCr.Abstraction.csproj", "{DEFB8B30-652A-4C99-A150-B5B1D4B2E7AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SbCr.Abstraction", "SbCr.Abstraction\SbCr.Abstraction.csproj", "{DEFB8B30-652A-4C99-A150-B5B1D4B2E7AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbCr.Abstraction.Internal", "SbCr.Abstraction.Internal\SbCr.Abstraction.Internal.csproj", "{58F82B38-23E9-4948-B384-0749D06F89BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SbCr.Abstraction.Internal", "SbCr.Abstraction.Internal\SbCr.Abstraction.Internal.csproj", "{58F82B38-23E9-4948-B384-0749D06F89BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbCr.Utils", "SbCr.Utils\SbCr.Utils.csproj", "{9E942ED4-CFC5-49C4-8D45-64B8D5E26793}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SbCr.Utils", "SbCr.Utils\SbCr.Utils.csproj", "{9E942ED4-CFC5-49C4-8D45-64B8D5E26793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbCr.Support.Console", "SbCr.Support.Console\SbCr.Support.Console.csproj", "{AB05A0C4-396E-4355-A6B7-B15741189FB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SbCr.Support.Console", "SbCr.Support.Console\SbCr.Support.Console.csproj", "{AB05A0C4-396E-4355-A6B7-B15741189FB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbCr.Support.Container", "SbCr.Support.Container\SbCr.Support.Container.csproj", "{72F886D4-75F7-475C-AF5F-2146CD9ABF39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{AB05A0C4-396E-4355-A6B7-B15741189FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB05A0C4-396E-4355-A6B7-B15741189FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB05A0C4-396E-4355-A6B7-B15741189FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F886D4-75F7-475C-AF5F-2146CD9ABF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F886D4-75F7-475C-AF5F-2146CD9ABF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F886D4-75F7-475C-AF5F-2146CD9ABF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F886D4-75F7-475C-AF5F-2146CD9ABF39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{58F82B38-23E9-4948-B384-0749D06F89BD} = {EBB567B8-0BF3-4E09-8BFD-08A4C57E385E}
 		{9E942ED4-CFC5-49C4-8D45-64B8D5E26793} = {EBB567B8-0BF3-4E09-8BFD-08A4C57E385E}
 		{AB05A0C4-396E-4355-A6B7-B15741189FB2} = {DCBA0B7D-4C66-4E49-866F-59003B036F4D}
+		{72F886D4-75F7-475C-AF5F-2146CD9ABF39} = {DCBA0B7D-4C66-4E49-866F-59003B036F4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84C449B9-C23A-44BB-AA6D-B258D677DF03}

@@ -6,5 +6,6 @@ namespace SbCr.Abstraction
 {
     public interface IServiceCollection
     {
+        IIocContainer GetContainer();
     }
 }

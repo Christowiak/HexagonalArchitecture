@@ -10,4 +10,8 @@
     <ProjectReference Include="..\SbCr.Utils\SbCr.Utils.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
 </Project>
