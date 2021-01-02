@@ -1,4 +1,5 @@
-﻿using SbCr.Framework;
+﻿using SbCr.Abstraction;
+using SbCr.Framework;
 using SbCr.ServiceProvider;
 using System;
 
@@ -11,6 +12,8 @@ namespace SbCr.Support.Console
             var framework = new SbCrFramework(new SbCrServiceProvider());
             framework.Initialize();
 
+
+            var domainAdaption = framework.GetComponent<IDomainAdaption>();
 
             System.Console.ReadLine();
         }

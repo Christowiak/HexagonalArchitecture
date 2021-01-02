@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DryIoc.dll" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SbCr.Abstraction\SbCr.Abstraction.csproj" />
     <ProjectReference Include="..\SbCr.Utils\SbCr.Utils.csproj" />
   </ItemGroup>
