@@ -2,7 +2,7 @@
 
 namespace SbCr.Abstraction
 {
-   // [Export]
+    [Export]
     public interface IDomainAdaption
     {
         void Initialize(object repositoryData);
